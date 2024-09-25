@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main(){
+	
+	int i=1, n, a, jumlah=0;
+	
+	cout << "masukan banyak bilangan : " ;
+	cin >> n;
+	
+	for (i; i<=n; i++) {
+		cout << "masukan nilai ke-" << i << " : ";
+		cin >> a;
+		if (a%2 == 0){	
+		jumlah=jumlah+a;
+		}
+	} 
+	cout << "jumlahnya adalah " << jumlah;
+	return 0;
+}
+	
